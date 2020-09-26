@@ -50,13 +50,13 @@
 
 .btn--wide {
   padding: 12px 64px;
-  font-size: 20pw;
+  font-size: 20px;
 }
 
-.btn--medium:hover,
 .btn--large:hover,
+.btn--medium:hover,
 .btn--mobile:hover {
-  transform: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
   background: #fff;
   color: #242424;
 }
@@ -64,7 +64,17 @@
 .btn--wide:hover {
   color: #fff;
   background-color: #f00946;
-  transition: all 0.2 ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.btn-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 8px 16px;
+  height: 100%;
+  width: 100%;
 }
 
 .blue {
@@ -92,23 +102,11 @@
 }
 
 .green {
-  background-color: #25ce4a;
+  background: #25ce4a;
   color: #fff;
   border: none;
 }
 
 .green:hover {
   background-color: #242424;
-  color: #fff;
-  border: none;
-}
-
-.btn-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  padding: 8px 16px;
-  height: 100%;
-  width: 100%;
 }
