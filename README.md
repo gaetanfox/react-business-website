@@ -1,3 +1,3 @@
-# A simle business website made with React
+# A simple business website made with React
 
 ![](businesssite.png)
